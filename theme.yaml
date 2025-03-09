@@ -1,0 +1,21 @@
+name: "Winter Starter Theme"
+description: "No description provided yet..."
+author: "Winter CMS Startup Theme"
+homepage: "https://wintercms.com"
+code: "startup"
+form:
+    fields:
+        googleanalytics_id:
+            label: themes.startup::lang.options.googleanalytics_id
+            type: text
+            span: full
+        color_primary:
+            label: themes.startup::lang.options.color_primary
+            type: colorpicker
+            span: left
+            default: "#103141"
+        color_secondary:
+            label: themes.startup::lang.options.color_secondary
+            type: colorpicker
+            span: right
+            default: "#2DA7C7"
